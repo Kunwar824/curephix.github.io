@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 .registrationpage{
     width:400px;
-    height:600px;
+    height:850px;
     background:#F5FFFA;
     position:relative;
     top:17%;
@@ -10,7 +10,7 @@
     margin-bottom:30px;
     margin-top: 30px;
     transform: translate(-50%);
-    box-shadow: 8px 5px 5px black;
+    box-shadow: 3px 2px 3px #0171d3 ;
 }
 /* .Loginpage::before{
     width:400px;
@@ -21,6 +21,12 @@
     left:400px;
     z-index: 12;
 } */
+.registrationpage img{
+    width:200px;
+    height:200px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
 .Loginpage p{
     font-family:"'Anybody', cursive";
     font-size:26px;
@@ -83,10 +89,10 @@ transform:translate(-50%);
     margin-left:23%;
     
 }
-@media(max-width:320px){
+@media(max-width:420px){
     .registrationpage{
-        width:280px;
-        height:700px;
+        width:360px;
+        height:800px;
        top:-130px;
     }
     .registrationinput-field{

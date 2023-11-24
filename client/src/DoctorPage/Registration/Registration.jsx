@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-
+import logo from "../../image/CurePhix-01.png";
 import Navbar from '../../DoctorComponent/Navbar/Navbar'
 import Footer from '../../components/footer/Footer.jsx';
 import { Navigate, useNavigate } from 'react-router-dom';
@@ -46,7 +46,7 @@ const[user,setuser]=useState(
     <Navbar/>
     <section>
       <div className="registrationpage">
-        
+      <img src={logo}/>
       <form method='POST' onSubmit={postdata}>
       <div className=" registrationinput-field">
         <span>Name</span>
@@ -74,6 +74,7 @@ const[user,setuser]=useState(
         <span>Confirm Password</span>
        <input type="password" onChange={inputhandler} placeholder="" autoComplete="off"  name='cpassword'  />
       </div>
+      <div className="terms"> <span>By signing up,I agree to all terms of service and privacy policy</span></div>
       <button>Sign Up</button>
 </form>
    
