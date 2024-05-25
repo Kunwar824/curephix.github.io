@@ -33,7 +33,8 @@ const Appointmentdata = (state, action) => {
             
             let tempFilterAppointmentdata=[...Appointmentdata];
             const {date} = state.filters;
-        
+        console.log(date);
+        console.log(new Date(date).getTime());
         if (date) {
             tempFilterAppointmentdata = tempFilterAppointmentdata.filter(
             (curElem) => new Date(curElem.appointmentdate).getTime()===new Date(date).getTime()
