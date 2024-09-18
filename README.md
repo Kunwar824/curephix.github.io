@@ -10,5 +10,5 @@ Tools Required:-
 7)MONGODB
 
 
-In this projecr  ,Almost everything I have implemented.
+This is very big project and almost every feature is present there.So I hope this project will help you all.
 Thank You
